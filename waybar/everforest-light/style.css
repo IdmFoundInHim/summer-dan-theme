@@ -9,7 +9,7 @@
 * {
   font-family: JetBrainsMono Nerd Font, FontAwesome;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 window#waybar {
@@ -49,6 +49,10 @@ window#waybar {
 
 #workspaces {
   padding: 0px;
+}
+
+#workspaces button {
+  color: @fg;
 }
 
 #workspaces button.active {
